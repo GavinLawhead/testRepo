@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/GavinLawhead/testrepo#readme",
   "dependencies": {
-    "firebase": "^9.9.3"
+    "firebase": "^9.9.3",
+    "js": "^0.1.0"
   }
 }

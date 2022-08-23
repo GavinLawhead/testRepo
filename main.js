@@ -1,9 +1,9 @@
 //listen for form SubmitEvent
 
-document.getElementById("contactForm").addEventListener("submit", submitForm);
+document.querySelector("#thebutton").addEventListener("click", submitForm);
 
 function submitForm(e) {
   e.preventDefault();
 
-  console.log(123);
+  console.log("123");
 }

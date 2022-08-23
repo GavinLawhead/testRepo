@@ -6,37 +6,25 @@
     <title>Document</title>
   </head>
   <body>
-    <div className="container">
-      <div className="text-center mt-5">
-        <h1>Nashville Asphalt Contact Form</h1>
+    <form>
+      <div>
+        <div>name</div>
+        <input id="name" />
       </div>
-      <h1>Get in Touch</h1>
-
-      <form id="contactForm">
-        <div class="form-group">
-          <label>Name</label>
-          <input type="text" class="form-control" id="name" />
-        </div>
-
-        <div class="form-group">
-          <label>Email</label>
-          <input type="text" id="email" />
-        </div>
-
-        <div class="form-group">
-          <label for="inputSubject">Subject</label>
-          <input type="text" id="subject" />
-        </div>
-
-        <div class="form-group">
-          <label>Message</label>
-          <textarea id="message" rows="5"></textarea>
-        </div>
-        <div class="text-center">
-          <button type="submit" class="btn btn-primary">Send</button>
-        </div>
-      </form>
-    </div>
+      <div>
+        <div>email</div>
+        <input id="email" />
+      </div>
+      <div>
+        <div>subject</div>
+        <input id="subject" />
+      </div>
+      <div>
+        <div>Message</div>
+        <textarea rows="5" id="message"></textarea>
+      </div>
+      <button id="thebutton">submit</button>
+    </form>
 
     <script src="main.js"></script>
   </body>
